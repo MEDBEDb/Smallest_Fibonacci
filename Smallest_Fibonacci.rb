@@ -5,4 +5,4 @@ end
 puts "Enter how many first Fibonacci numbers you need:"
 x = gets.chomp
 puts "The first #{x} Fibonacci numbers are:" 
-(0..x.to_i).each {|n| print "#{F(n)}, "}
+print "0 "; (1..x.to_i).each { |n| print "#{F(n)} "}
